@@ -184,12 +184,12 @@ const recordConversation = () => {
   return (
     <div className="App">
     <h1>EMOSENSE</h1>
-    <label>Create Conversation</label>
-    <input value={topic} onChange={updateTopic} type="text" />
+    <label>Create Conversation</label> &emsp;
+    <input value={topic} onChange={updateTopic} type="text" /> &emsp;
     <button onClick={sendTopic}>Create</button>
     <br></br><br></br>
 
-    <input type="text" value={speaker} onChange={updateSpeaker}/>
+    <input type="text" value={speaker} onChange={updateSpeaker}/> &emsp;
     <button onClick={registerSpeaker}>Register New Speaker</button>
     <br></br><br></br>
 
@@ -201,7 +201,7 @@ const recordConversation = () => {
     <button onClick={stopRecording}>Stop recording</button>
     <br></br><br></br>
 
-    <label>End Conversation</label>
+    <label>End Conversation</label> &emsp;
     <button onClick={deleteTopic}>End</button>
     <br/>
 
